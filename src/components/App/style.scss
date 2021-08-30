@@ -1,0 +1,9 @@
+@use 'src/styles/vars' as v;
+
+.app {
+  width: 800px;
+  margin: 0 auto;
+  background-color: v.$color-app-bkg;
+  min-height: 100vh;
+  padding: v.$gutter;
+}
